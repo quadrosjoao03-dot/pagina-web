@@ -1,0 +1,16 @@
+/* Adaptação que o alura coloca para tela/*
+header {
+  background-color: #183C63;
+  color: #FFFFFF;
+  text-align: center;
+  max-width: 800px; /* Limita toda a largura para os pixels da tela*/
+  margin: 0 auto;    /* Centraliza  */
+  padding: 16px;     /* Espaço entre o texto e a borda */
+
+}
+
+/* Tamanho normal/fixo da imagem */
+img {
+  width: 80px;
+  height: 80px;
+}
