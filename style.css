@@ -73,7 +73,7 @@ button, .btn {
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.2s ease;
+  transition: 2 0.2s ease;
 }2
 
 button:hover, .btn:hover {
