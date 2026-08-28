@@ -2,19 +2,31 @@
   box-sizing: border-box;
 }
 
+html {
+  background: #cc0000;
+}
+
 body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.5;
   color: white;
-  background: #c5161d;
+  background: #cc0000;
+  min-height: 100vh;
 }
 
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
 }
 
 h2 {
@@ -47,7 +59,7 @@ h3.secao-titulo {
 
 .meme-caption {
   font-weight: bold;
-  color: #c5161d;
+  color: #cc0000;
 }
 
 .video-container {
@@ -62,7 +74,7 @@ h3.secao-titulo {
 .btn-receitas {
   display: inline-block;
   padding: 12px 20px;
-  color: #c5161d;
+  color: #cc0000;
   background: white;
   font-weight: bold;
   text-decoration: none;
