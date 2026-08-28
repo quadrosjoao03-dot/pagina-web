@@ -16,16 +16,13 @@
       }
 
       .secao-titulo {
-    font-size: 24px;
-    font-weight: 600;
-    color: #273441;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #e2e8f0;
-    margin-top: 32px;
-    
-   } 
-
-      
+        font-size: 24px;
+        font-weight: 600;
+        color: #273441;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #e2e8f0;
+        margin-top: 32px;
+      } 
 
       /* Estilização da caixa do Meme */
       .meme-container {
@@ -53,13 +50,37 @@
       .video-container {
         margin-top: 30px;
       }
+
+      /* Estilização do Botão de Receitas */
+      .botao-container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .btn-receitas {
+        display: inline-block;
+        background-color: #e74c3c;
+        color: #ffffff;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .btn-receitas:hover {
+        background-color: #c0392b;
+        transform: scale(1.05);
+      }
     </style>
   </head>
   
   <body>
     <header>
-      <!-- Cabeçalho da página -->
-    </header>
+      </header>
 
     <main>
       <img src="Ketchup e Mostarda.jpg" alt="Ketchup e Mostarda delicioso da HEINZ" width="150">
@@ -68,18 +89,16 @@
         <h2>A História dos Dois Molhos: Ketchup e Mostarda</h2>
         <p class="artigo-autor">Por: João Pedro de Quadros </p>
 
-        <!--  1: KETCHUP -->
         <h3 class="secao-titulo">1. A História do Ketchup</h3>
         
         <p>Apesar de sua fama americana, o ketchup nasceu na Ásia, derivando do termo chinês Hokkien <em>kê-tsiap</em>, um molho de peixe fermentado trazido do Vietnã. Comerciantes britânicos conheceram a especiaria no Sudeste Asiático entre os séculos XVII e XVIII e tentaram recriá-la na Europa utilizando cogumelos, nozes e ostras, ainda sem nenhum tomate na receita.</p>
         
         <p>Foi apenas em 1812 que a primeira receita contendo tomate foi publicada pelo cientista James Mease. No entanto, os primeiros fabricantes industriais enfrentavam sérios problemas para conservar o molho ao longo do ano, o que resultava em produtos contaminados por bactérias ou com excesso de conservantes químicos perigosos para a saúde.</p>
         
-        <p>A grande revolução veio em 1876 com Henry J. Heinz, que desenvolveu uma fórmula sem aditivos nocivos,. Ele passou a usar tomates bem maduros — ricos na substância conservante natural chamada pectina — além de aumentar a quantidade de vinagre e açúcar, garantindo um molho seguro e durável.</p>
-        .
+        <p>A grande revolução veio em 1876 com Henry J. Heinz, que desenvolveu uma fórmula sem aditivos nocivos. Ele passou a usar tomates bem maduros — ricos na substância conservante natural chamada pectina — além de aumentar a quantidade de vinagre e açúcar, garantindo um molho seguro e durável.</p>
+        
         <p>A inovação de Heinz dominou o mercado e estabeleceu o sabor padrão que conhecemos e consumimos até hoje. O ketchup industrial tornou-se tão prático e saboroso que as receitas caseiras praticamente desapareceram, tornando-o um item indispensável nas mesas do mundo inteiro.</p>
        
-        <!-- 2: MOSTARDA -->
         <h3 class="secao-titulo">2. A História da Mostarda</h3>
         
         <p>A mostarda é uma das especiarias mais antigas utilizadas pela humanidade, com registros de consumo que remetem às civilizações egípcia, grega e romana. Os romanos foram os pioneiros em misturar sementes moídas de mostarda com <em>mustum</em> (mosto de vinho não fermentado), criando uma pasta picante batizada de <em>mustum ardens</em> ("mosto ardente"), expressão que deu origem à palavra "mostarda".</p>
@@ -90,16 +109,18 @@
 
         <p>Com a chegada da Revolução Industrial, o processo de fabricação foi automatizado e surgiram variações mais leves, como a clássica mostarda amarela americana. Hoje, a mostarda se consolida como um condimento global, variando desde versões rústicas com grãos inteiros até cremes picantes e adocicados.</p>
         
-        <!-- Imagem do Rick -->
         <div class="meme-container">
           <img src="Rick Ketchup.jpg" alt="Meme Ketchup Rick">
           <p class="meme-caption">"Eu me transformei em uma garrafa de Ketchup, Morty! Eu sou o Ketchup Rick! O mais gostoso!!!"</p>
         </div>
 
-        <!-- Secção do Vídeo -->
         <div class="video-container">
           <h3>Assista: A História do Ketchup </h3>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/SEU_LINK_AQUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="botao-container">
+          <a href="receitas.html" class="btn-receitas">Ver Receitas de Ketchup e Mostarda</a>
         </div>
 
       </div>
