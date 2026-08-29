@@ -5,14 +5,14 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
-  color: #fff;
-  background: #cc0000;
+  color: white;
+  background: red;
 }
 
 main {
-  max-width: 800px;
+  width: min(800px, 100%);
   margin: 0 auto;
   padding: 20px;
 }
@@ -20,61 +20,60 @@ main {
 h2,
 h3,
 p {
-  margin: 0 0 1rem;
-  color: #fff;
+  margin: 0 0 15px;
+  color: white;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
 }
 
-h3.secao-titulo {
-  border-bottom: 1px solid #fff;
+.secaotitulo {
+  border-bottom: 2px solid white;
   padding-bottom: 5px;
   margin-top: 25px;
 }
 
-.artigo-autor {
+.artigoautor {
   font-style: italic;
   text-align: center;
-  color: #ffd5d5;
+  color: yellow;
 }
 
 .meme-container {
   padding: 10px;
   text-align: center;
-  background: #fff;
+  background: white;
 }
 
 .meme-container img {
-  display: block;
-  max-width: 220px;
+  width: 220px;
+  max-width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .meme-caption {
   font-weight: bold;
-  color: #cc0000;
+  color: red;
 }
 
 .videos-row {
   display: flex;
   gap: 20px;
-  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .video-container {
-  flex: 1 1 320px;
+  flex: 1 1 300px;
   text-align: center;
 }
 
 .video-container iframe {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
 }
 
 .botao-container {
@@ -84,17 +83,46 @@ h3.secao-titulo {
 
 .btn-receitas {
   display: inline-block;
-  padding: 12px 20px;
-  color: #cc0000;
-  background: #fff;
+  padding: 10px 15px;
+  color: red;
+  background: white;
   font-weight: bold;
-  text-decoration: none;
-  border-radius: 4px;
+  text-decoration: underline;
+  border: 2px solid black;
 }
 
-@media (max-width: 600px) {
+.avaliacao {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 25px 0 10px;
+}
+
+.btn-voto {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-voto-dislike {
+  background: #f2f2f2;
+  color: #333;
+}
+
+.btn-voto.active {
+  background: #d90000;
+  color: white;
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
   body {
-    padding: 5px;
+    padding: 10px;
   }
 
   main {
@@ -105,9 +133,12 @@ h3.secao-titulo {
     font-size: 24px;
   }
 
-  iframe {
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 9;
+  .video-container iframe {
+    height: 220px;
+  }
+
+  .avaliacao {
+    flex-direction: column;
+    align-items: center;
   }
 }
