@@ -2,18 +2,13 @@
   box-sizing: border-box;
 }
 
-html {
-  background: #cc0000;
-}
-
 body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.5;
-  color: white;
+  color: #fff;
   background: #cc0000;
-  min-height: 100vh;
 }
 
 main {
@@ -22,11 +17,11 @@ main {
   padding: 20px;
 }
 
-h1,
 h2,
 h3,
 p {
-  color: white;
+  margin: 0 0 1rem;
+  color: #fff;
 }
 
 h2 {
@@ -35,7 +30,7 @@ h2 {
 }
 
 h3.secao-titulo {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
   padding-bottom: 5px;
   margin-top: 25px;
 }
@@ -49,12 +44,14 @@ h3.secao-titulo {
 .meme-container {
   padding: 10px;
   text-align: center;
-  background: white;
+  background: #fff;
 }
 
 .meme-container img {
+  display: block;
   max-width: 220px;
   height: auto;
+  margin: 0 auto;
 }
 
 .meme-caption {
@@ -62,8 +59,22 @@ h3.secao-titulo {
   color: #cc0000;
 }
 
+.videos-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .video-container {
+  flex: 1 1 320px;
   text-align: center;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  height: auto;
 }
 
 .botao-container {
@@ -75,15 +86,10 @@ h3.secao-titulo {
   display: inline-block;
   padding: 12px 20px;
   color: #cc0000;
-  background: white;
+  background: #fff;
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
-}
-
-.btn-receitas:hover {
-  color: #fff;
-  background: #8f0e15;
 }
 
 @media (max-width: 600px) {
