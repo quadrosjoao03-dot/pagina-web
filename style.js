@@ -7,14 +7,34 @@ if (likeBtn && dislikeBtn) {
 
   let likeTotal = 0;
   let dislikeTotal = 0;
+  let votoAtual = null;
+
+  function atualizar() {
+    likeCounter.textContent = likeTotal;
+    dislikeCounter.textContent = dislikeTotal;
+  }
 
   likeBtn.addEventListener('click', () => {
-    likeTotal += 1;
-    likeCounter.textContent = likeTotal;
+    if (votoAtual === 'like') {
+      likeTotal--;
+      votoAtual = null;
+    } else {
+      if (votoAtual === 'dislike') dislikeTotal--;
+      likeTotal++;
+      votoAtual = 'like';
+    }
+    atualizar();
   });
 
   dislikeBtn.addEventListener('click', () => {
-    dislikeTotal += 1;
-    dislikeCounter.textContent = dislikeTotal;
+    if (votoAtual === 'dislike') {
+      dislikeTotal--;
+      votoAtual = null;
+    } else {
+      if (votoAtual === 'like') likeTotal--;
+      dislikeTotal++;
+      votoAtual = 'dislike';
+    }
+    atualizar();
   });
 }
