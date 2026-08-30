@@ -1,32 +1,44 @@
-* {
-  box-sizing: border-box;
+html, body {
+  margin: 0;
+  min-height: 100%;
 }
 
 body {
-  margin: 0;
   padding: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 1.5;
-  color: white;
+  font-family: Arial, sans-serif;
   background: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 main {
-  width: min(800px, 100%);
+  width: min(900px, 100%);
   margin: 0 auto;
-  padding: 20px;
 }
 
-h2,
-h3,
-p {
-  margin: 0 0 15px;
+.artigo-principal {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2, h3, p {
+  margin-top: 0;
   color: white;
 }
 
 h2 {
-  font-size: 30px;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+.artigoautor {
+  text-align: center;
+  font-style: italic;
+  color: #ffe066;
 }
 
 .secaotitulo {
@@ -35,16 +47,11 @@ h2 {
   margin-top: 25px;
 }
 
-.artigoautor {
-  font-style: italic;
-  text-align: center;
-  color: yellow;
-}
-
 .meme-container {
-  padding: 10px;
-  text-align: center;
   background: white;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .meme-container img {
@@ -54,91 +61,70 @@ h2 {
 }
 
 .meme-caption {
-  font-weight: bold;
   color: red;
+  font-weight: bold;
+  margin: 10px 0 0;
 }
 
 .videos-row {
   display: flex;
   gap: 20px;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .video-container {
   flex: 1 1 300px;
-  text-align: center;
 }
 
 .video-container iframe {
   width: 100%;
-  max-width: 560px;
   height: 315px;
+  max-width: 560px;
 }
 
 .botao-container {
-  margin: 40px 0;
   text-align: center;
+  margin: 25px 0;
 }
 
 .btn-receitas {
   display: inline-block;
-  padding: 10px 15px;
-  color: red;
   background: white;
+  color: red;
+  padding: 12px 18px;
   font-weight: bold;
-  text-decoration: underline;
-  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 8px;
 }
 
 .avaliacao {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin: 25px 0 10px;
+  margin-top: 20px;
 }
 
 .btn-voto {
-  padding: 10px 18px;
+  background: white;
   border: none;
   border-radius: 8px;
-  background: white;
-  color: red;
+  padding: 10px 18px;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.btn-voto-dislike {
-  background: #f2f2f2;
-  color: #333;
-}
-
-.btn-voto.active {
-  background: #d90000;
-  color: white;
-  transform: scale(1.03);
 }
 
 @media (max-width: 768px) {
   body {
-    padding: 10px;
+    padding: 12px;
   }
 
-  main {
-    padding: 10px;
-  }
-
-  h2 {
-    font-size: 24px;
+  .artigo-principal {
+    padding: 14px;
   }
 
   .video-container iframe {
     height: 220px;
-  }
-
-  .avaliacao {
-    flex-direction: column;
-    align-items: center;
   }
 }
