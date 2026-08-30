@@ -114,11 +114,22 @@ h2 {
 
 .btn-voto {
   background: white;
+  color: red;
   border: none;
   border-radius: 8px;
   padding: 10px 18px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.like-btn {
+  background: white;
+  color: red;
+}
+
+.dislike-btn {
+  background: #f3f3f3;
+  color: #333;
 }
 
 @media (max-width: 768px) {
