@@ -22,16 +22,22 @@ main {
   background: rgba(255, 255, 255, 0.04);
   padding: 20px;
   border-radius: 12px;
+  text-align: left;
+}
+
+h2, h3 {
+  margin-top: 0;
+  color: white;
   text-align: center;
 }
 
-h2, h3, p {
+p {
   margin-top: 0;
   color: white;
+  text-align: left;
 }
 
 h2 {
-  text-align: center;
   margin-bottom: 10px;
 }
 
