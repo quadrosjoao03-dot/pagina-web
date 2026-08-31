@@ -20,11 +20,11 @@ body {
   align-items: flex-start;
 }
 
-.masterchef {
+.masterchef{
   margin:0px;
   border-style:solid;
   border-radius: 2px;
-  padding: 20px; /* lembrar que o padding distancia e estetiza/*
+  padding: 20px; 
   border-color:black;
   background-color: rgb(218, 218, 40);
    }
@@ -37,7 +37,7 @@ main {
 }
 
 .artigo-principal {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(90, 49, 49, 0.192);
   padding: 20px;
   border-radius: 12px;
   text-align: left;
@@ -58,7 +58,7 @@ p {
 h2 {
   margin-bottom: 10px;
 }
- /* ESTÉTICA DO TÍTULO /*
+ 
 .artigoautor {
   text-align: center;
   font-style: italic;
