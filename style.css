@@ -101,15 +101,6 @@ h2 {
   margin: 25px 0;
 }
 
-.btn-receitas {
-  display: inline-block;
-  background: white;
-  color: red;
-  padding: 12px 18px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 8px;
-}
 
 .avaliacao {
   display: flex;
