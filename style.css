@@ -5,15 +5,15 @@ html, body {
 .bitolindo{
   margin:0px;
   border-style:solid;
-  border-radius: 2px;
+  border-radius: 8px;
   padding: 20px;
-  border-color:black;
-  background-color: rgb(218, 218, 40);
+  border-color:#450a0a;
+  background-color: #facc15;
 }
 body {
   padding: 20px;
   font-family: sans-serif;
-  background: rgb(170, 42, 42);
+  background: #991b1b;
   color: white;
   display: flex;
   justify-content: center;
@@ -23,10 +23,10 @@ body {
 .masterchef{
   margin:0px;
   border-style:solid;
-  border-radius: 2px;
+  border-radius: 8px;
   padding: 20px; 
-  border-color:black;
-  background-color: rgb(218, 218, 40);
+  border-color:#450a0a;
+  background-color:#facc15;
    }
   
 
