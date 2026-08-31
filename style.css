@@ -19,6 +19,14 @@ body {
   align-items: flex-start;
 }
 
+.masterchef{
+  margin:20px;
+  border-style:solid;
+  border-radius: 2px;
+  border-color:black;
+  background-color: beige;
+}
+
 main {
   width: min(900px, 100%);
   margin: 0 auto;
