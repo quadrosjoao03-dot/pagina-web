@@ -12,7 +12,7 @@ html, body {
 body {
   padding: 20px;
   font-family: sans-serif;
-  background: red;
+  background: rgb(170, 42, 42);
   color: white;
   display: flex;
   justify-content: center;
@@ -24,8 +24,9 @@ body {
   border-style:solid;
   border-radius: 2px;
   border-color:black;
-  background-color: beige;
+  background-color: rgb(218, 218, 40);
 }
+
 
 main {
   width: min(900px, 100%);
