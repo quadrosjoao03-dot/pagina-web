@@ -24,12 +24,16 @@ html, body {
 }
 body {
   padding: 20px;
-  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #991b1b;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1, h2, h3, .artigoautor, .meme-caption {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .masterchef{
