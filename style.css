@@ -1,3 +1,4 @@
+/* Cabeçalho da página */
 .topo {
   width: 100%;
   text-align: center;
@@ -15,6 +16,7 @@ html, body {
   min-height: 100%;
 }
 
+/* Estilo geral da página */
 body {
   padding: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -25,6 +27,7 @@ body {
   align-items: center;
 }
 
+/* Títulos e textos principais */
 h1, h2, .artigoautor, .meme-caption {
   font-family: Georgia, "Times New Roman", serif;
 }
@@ -35,6 +38,7 @@ h3 {
   letter-spacing: 0.3px;
 }
 
+/* Blocos com destaque amarelo */
 .bitolindo,
 .masterchef {
   margin: 0;
@@ -45,6 +49,7 @@ h3 {
   color: #3a120a;
 }
 
+/* Conteúdo principal */
 main {
   width: min(900px, 100%);
   margin: 0 auto;
@@ -79,6 +84,7 @@ h2 {
   color: #ffe066;
 }
 
+/* Meme e imagem destacada */
 .meme-container {
   background: white;
   padding: 15px;
@@ -98,6 +104,7 @@ h2 {
   margin: 10px 0 0;
 }
 
+/* Área dos vídeos */
 .videos-row {
   display: flex;
   gap: 20px;
@@ -116,6 +123,7 @@ h2 {
   max-width: 560px;
 }
 
+/* Botões de avaliação */
 .avaliacao {
   display: flex;
   justify-content: center;
@@ -143,6 +151,7 @@ h2 {
   color: #333;
 }
 
+/* Ajuste para telas menores */
 @media (max-width: 768px) {
   body {
     padding: 12px;
