@@ -3,7 +3,7 @@ html, body {
   min-height: 100%;
 }
 .bitolindo{
-  margin:20px;
+  margin:0px;
   border-style:solid;
   border-radius: 2px;
   padding: 20px;
@@ -20,14 +20,15 @@ body {
   align-items: flex-start;
 }
 
-.masterchef{
-  margin:20px;
+.masterchef {
+  margin:0px;
   border-style:solid;
   border-radius: 2px;
-  padding: 20px;
+  padding: 20px; /* lembrar que o padding distancia e estetiza/*
   border-color:black;
   background-color: rgb(218, 218, 40);
-}
+   }
+  
 
 
 main {
@@ -57,7 +58,7 @@ p {
 h2 {
   margin-bottom: 10px;
 }
-
+ /* ESTÉTICA DO TÍTULO /*
 .artigoautor {
   text-align: center;
   font-style: italic;
