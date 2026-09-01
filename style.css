@@ -38,7 +38,7 @@ h3 {
   letter-spacing: 0.3px;
 }
 
-/* Blocos com destaque amarelo */
+/* Bloco que coloquei o testo principal e pintei de amarelo, com borda marrom e arredondada, para destacar o texto principal do site */
 .bitolindo,
 .masterchef {
   margin: 0;
@@ -84,7 +84,7 @@ h2 {
   color: #ffe066;
 }
 
-/* Meme e imagem destacada */
+
 .meme-container {
   background: white;
   padding: 15px;
