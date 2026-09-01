@@ -1,4 +1,6 @@
 # pagina-web
+Objetivo: Conscientizar as pessoas da história do ketchup e da mostarda, e fazer com que elas possam saber como usar uma garrafa sobrando desses 2 molhos
+
 Fontes: https://www.mendezalimentos.com.br/Blog/Receitas/Exibir/89/1/6/ mostarda_origens_de_uma_especiaria_milenar
         https://www.nationalgeographic.com/culture/article/how-was-ketchup-invented
        https://cookpad.com/br/busca/ketchup
