@@ -165,3 +165,10 @@ h2 {
     height: 220px;
   }
 }
+
+/*anotaçoes/espécie de recordação para lembrar o que cada tag mais importante faz*/
+/*padding: define o espaçamento interno de um elemento, eu usei para distanciar da borda*/
+/*margin: define o espaçamento externo de um elemento, eu usei para distanciar de outros elementos*/  
+/*border: define a borda de um elemento, eu usei para criar uma borda ao redor de alguns elementos como o "masterchef" e o "bitolindo" especificamente*/
+/*border-radius: define o arredondamento dos cantos de um elemento, eu usei para deixar os cantos arredondados em alguns elementos como o "masterchef" e o "bitolindo" especificamente (denovo)*/
+/* chega */
